@@ -11,10 +11,10 @@
         var redirect = sessionStorage.getItem('spa_redirect');
         if (redirect) {
           sessionStorage.removeItem('spa_redirect');
-          window.history.replaceState(null, null, '/Demo' + redirect);
+          window.history.replaceState(null, null, '/demo' + redirect);
         }
       })();
-    <\/script>
+    </script>
   </head>
   <body>
     <div id="app"></div>
