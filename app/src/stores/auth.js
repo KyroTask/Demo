@@ -62,7 +62,7 @@ export const useAuthStore = defineStore('auth', () => {
 
   function logout() {
     // In demo mode, logout just reloads the app or goes to landing
-    window.location.href = '/'
+    window.location.href = '/Demo/'
   }
 
   async function loginDev() {
