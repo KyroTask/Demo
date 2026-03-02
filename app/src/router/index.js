@@ -79,15 +79,15 @@ const routes = [
       }
     ]
   },
-  // Catchall redirect to app
+  // Catchall redirect to landing
   {
     path: '/:pathMatch(.*)*',
-    redirect: '/app'
+    redirect: '/'
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 
