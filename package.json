@@ -1,0 +1,9 @@
+{
+  "name": "kyrotask-demo-runner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd app && npm i && npm run dev",
+    "build": "cd app && npm i && npm run build"
+  }
+}
